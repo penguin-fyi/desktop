@@ -3,12 +3,10 @@
 Source files for `penguin-desktop` [PKGBUILD](https://github.com/penguin-fyi/pkgbuilds/blob/main/penguin-desktop/)
 
 ## Depends
-- arandr
-- avahi
-- awesome-git
-- bash-completion
+- awesome-dev
 - blueman
 - bluez-utils
+- btop
 - cups
 - dex
 - firefox
@@ -24,7 +22,7 @@ Source files for `penguin-desktop` [PKGBUILD](https://github.com/penguin-fyi/pkg
 - lightdm-gtk-greeter
 - lightdm-gtk-greeter-settings
 - light-locker
-- lxtask-gtk3
+- neovim
 - network-manager-applet
 - nitrogen
 - numlockx
@@ -34,7 +32,6 @@ Source files for `penguin-desktop` [PKGBUILD](https://github.com/penguin-fyi/pkg
 - penguin-desktop-awesome
 - penguin-desktop-config
 - penguin-desktop-themes
-- picom
 - pipewire
 - pipewire-alsa
 - pipewire-pulse
@@ -48,6 +45,7 @@ Source files for `penguin-desktop` [PKGBUILD](https://github.com/penguin-fyi/pkg
 - unclutter
 - volumeicon
 - weechat
+- xdecorator
 - xdg-user-dirs-gtk
 - xdg-utils
 - xed
@@ -62,9 +60,6 @@ Source files for `penguin-desktop` [PKGBUILD](https://github.com/penguin-fyi/pkg
 - xsettingsd
 - xterm
 - xviewer
-- zsh-autosuggestions
-- zsh-completions
-- zsh-syntax-highlighting
 
 ## Autostart
 - nitrogen
@@ -79,5 +74,7 @@ Source files for `penguin-desktop` [PKGBUILD](https://github.com/penguin-fyi/pkg
 ## Services
 - lightdm
 - bluetooth
-- avahi-daemon
+
+## Xsessions
+- awesome-default
 
